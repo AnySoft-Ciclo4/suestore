@@ -1,0 +1,24 @@
+{
+  "name": "suestore",
+  "version": "1.0.0",
+  "description": "Tienda virtual de ropa para hombres",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnySoft-Ciclo4/SueStore.git"
+  },
+  "author": "AnySoft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnySoft-Ciclo4/SueStore/issues"
+  },
+  "homepage": "https://github.com/AnySoft-Ciclo4/SueStore#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.6"
+  }
+}
