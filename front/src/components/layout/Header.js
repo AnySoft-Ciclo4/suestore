@@ -8,7 +8,7 @@ const Header = () => {
             <nav className='navbar row'>
                 <div className='col-12 col-md-3'>
                     <div className='navbar-brand'>
-                        <img src="./images/logo192x192.png" alt="SuéStore Logo"></img>
+                        <img src="./images/logo192x192..png" alt="SuéStore Logo"></img>
                     </div>
                 </div>
 
@@ -21,16 +21,16 @@ const Header = () => {
                             placeholder='Buscar...'></input>
                         <div class="input-group-append">
                             <button id="search-btn" class="btn">
-                                <i class="fa fa-search-plus fa-2x text-white" aria-hidden="true"></i>
+                                <i class="fa fa-search-plus fa-2x" aria-hidden="true"></i>
                             </button>
                         </div>
                     </div>
                 </div>
                 <div className="col-12 col-md-3 mt-4 mt-md-0 text-center">
-                    <span><button className='btn' id="login_btn">Inicie Sesión</button></span>
+                    <span><button className='btn text-white' id="login_btn">Inicie Sesión</button></span>
                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    <i class="fa fa-shopping-cart fa-2x text-white" aria-hidden="false"></i>
-                    <span className="ml-1" id="cart_count">2</span>
+                    <i class="fa fa-shopping-cart fa-2x " aria-hidden="false"></i> 
+                    <span className="ml-1" id="cart_count">0</span>
                 </div>
 
             </nav>

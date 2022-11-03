@@ -8,7 +8,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Scroll Bar */
+/** Scroll Bar */
 
 ::-webkit-scrollbar-track {
   background-color: #f5f5f5;
@@ -27,7 +27,7 @@ body {
 }
 
 nav {
-  background-color: #a8a9aa;
+  background-color: #d4d4d4;
   padding: 1rem 1rem;
 }
 
@@ -47,7 +47,7 @@ f
 
 #login_btn,
 #view_btn {
-  background-color: #febd69;
+  background-color: #000000;
   padding: 0.4rem 1.8rem;
   font-family: calibri;
 }
@@ -58,15 +58,15 @@ f
 }
 
 #cart_count {
-  background-color: #febd69;
+  background-color: #000000;
   padding: 0.2rem 0.5rem;
   border-radius: 0.2rem;
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 0.9rem;
 }
 
-/* Home page */
+/** Home page */
 #products_heading {
   margin-top: 1.8rem;
 }
@@ -93,7 +93,7 @@ f
 }
 
 #view_btn {
-  background-color: #fa9c23;
+  background-color: #000000;
   color: white;
 }
 
@@ -113,7 +113,7 @@ f
   margin-left: 0.5rem;
 }
 
-/* Footer */
+/** Footer */
 footer {
   margin-top: 8rem;
   color: grey;
@@ -121,7 +121,7 @@ footer {
   width: 100%;
 }
 
-/* Ratings */
+/** Ratings */
 
 .rating-outer {
   display: inline-block;
@@ -148,7 +148,7 @@ footer {
   color: #f8ce0b;
 }
 
-/* Product Details Page */
+/** Product Details Page */
 #product_id {
   color: grey;
   font-size: 0.8rem;
@@ -162,7 +162,7 @@ footer {
 #cart_btn,
 #review_btn {
   border-radius: 2rem;
-  background-color: #fa9c23;
+  background-color: #000000;
   border: none;
   padding: 0.5rem 2rem;
 }
@@ -307,9 +307,9 @@ footer {
 }
 
 .wrapper form .btn {
-  background-color: #fa9c23;
+  background-color: #000000;
   border-color: #fa9c23;
-  color: white;
+  color: rgb(255, 255, 255);
   margin-top: 2.5rem;
 }
 
@@ -318,7 +318,7 @@ footer {
   color: grey;
 }
 
-/* Avatar */
+/** Avatar */
 .avatar {
   display: inline-block;
   margin-bottom: 0;
@@ -571,13 +571,13 @@ ul.CTAs a {
   margin-left: 0.4rem;
 }
 
-/* Dashboard */
+/** Dashboard */
 
 .card-font-size {
   font-size: 1.5rem;
 }
 
-/* Reviews */
+/** Reviews */
 
 .rating {
   margin-top: 10rem;
